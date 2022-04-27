@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-body {
+    background-color: hsl(0, 0%, 95%);
+    padding: 112px 300px;
+    min-height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.7;
+}
+
+#main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sedans a {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans a:hover {
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs a {
+    color: hsl(184, 100%, 22%);
+}
+
+.suvs a:hover {
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.luxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury a:hover {
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.column {
+    height: 400px;
+    padding: 34px;
+}
+
+.column h1 {
+    padding: 14px 0px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.column p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+}
+
+.column a {
+    display: inline-block;
+    margin-top: 58px;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    padding: 6px 26px;
+    font-size: 13px;
+}
