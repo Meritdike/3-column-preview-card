@@ -8,16 +8,20 @@
 
 #page-body {
     background-color: hsl(0, 0%, 95%);
-    padding: 112px 300px;
+    /* padding: 112px 300px; */
     min-height: 100vh;
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-body {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 60rem;
 }
 
 .sedans {
@@ -76,7 +80,7 @@
     padding: 14px 0px;
     color: hsl(0, 0%, 95%);
     font-weight: 700;
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', sans-serif;
 }
 
 .column p {
