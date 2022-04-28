@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: 60rem;
 }
 
 .sedans {
@@ -72,12 +72,12 @@
 }
 
 .column {
-    height: 400px;
-    padding: 34px;
+    height: 500px;
+    padding: 50px;
 }
 
 .column h1 {
-    padding: 14px 0px;
+    padding: 26px 0px;
     color: hsl(0, 0%, 95%);
     font-weight: 700;
     font-family: 'Big Shoulders Display', sans-serif;
@@ -90,7 +90,7 @@
 
 .column a {
     display: inline-block;
-    margin-top: 58px;
+    margin-top: 140px;
     text-decoration: none;
     background-color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
